@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Fnlg. Silvana M. Luna - Fonoaudiología</title>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans antialiased">
+
+    <!-- BARRA DE NAVEGACIÓN -->
+    <header class="bg-white border-b border-gray-200 sticky top-0 z-50">
+        <div class="max-w-4xl mx-auto px-4 py-4 flex flex-wrap justify-between items-center">
+            <div class="font-bold text-xl text-blue-600">
+                <a href="#inicio">inicio</a>
+            </div>
+            <nav class="flex gap-4 text-sm font-medium text-gray-600">
+                <a href="#servicio" class="hover:text-blue-600 transition">servicio</a>
+                <a href="#contacto" class="hover:text-blue-600 transition">contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- SECCIÓN HERO -->
+    <section id="inicio" class="max-w-4xl mx-auto px-4 py-16 sm:py-24 flex flex-col items-center text-center">
+        <!-- Contenedor del Título e Imagen -->
+        <div class="bg-white border-2 border-gray-800 rounded-2xl p-8 w-full max-w-2xl shadow-sm mb-8 flex flex-col sm:flex-row items-center gap-6 justify-center">
+            
+            <!-- AQUÍ VA LA IMAGEN -->
+            <div class="w-28 h-28 rounded-full border-2 border-gray-800 overflow-hidden flex-shrink-0 bg-gray-100">
+                <!-- Reemplaza "ruta/a/tu-imagen.jpg" por la URL o nombre del archivo local de la foto -->
+                <img src="ruta/a/tu-imagen.jpg" alt="Fnlg. Silvana M. Luna" class="w-full h-full object-cover">
+            </div>
+
+            <div class="text-left">
+                <h1 class="text-3xl font-bold text-gray-800">Fnlg. Silvana M. Luna</h1>
+                <p class="text-gray-600 text-sm mt-2 leading-relaxed">
+                    Comprometida con el bienestar y la calidad de vida de sus pacientes, la Fnlg. Silvana M. Luna brinda un espacio de atención integral y humano en General Güemes, Salta. Su enfoque profesional combina calidez y experiencia para acompañar a cada persona y su familia en la superación de dificultades del lenguaje, la voz y la audición.
+                </p>
+            </div>
+        </div>
+
+        <!-- Botones de Acción -->
+        <div class="flex gap-4">
+            <a href="#contacto" class="border-2 border-gray-800 rounded-lg px-8 py-2 font-medium hover:bg-gray-100 transition inline-block">Consultar Turno</a>
+            <a href="#servicio" class="border-2 border-gray-800 rounded-lg px-8 py-2 font-medium hover:bg-gray-100 transition inline-block">Ver Servicios</a>
+        </div>
+    </section>
+
+    <!-- SECCIÓN DE SERVICIOS -->
+    <section id="servicio" class="bg-white border-y border-gray-200">
+        <div class="max-w-3xl mx-auto px-4 py-16">
+            <h2 class="text-2xl font-bold text-center mb-8 text-gray-800">Mis Servicios</h2>
+            
+            <div class="flex flex-col gap-4">
+                <div class="border-2 border-gray-800 rounded-xl p-4 text-center text-lg font-medium hover:shadow-md transition cursor-pointer">
+                    Audiología
+                </div>
+                <div class="border-2 border-gray-800 rounded-xl p-4 text-center text-lg font-medium hover:shadow-md transition cursor-pointer">
+                    Clínica del Lenguaje
+                </div>
+                <div class="border-2 border-gray-800 rounded-xl p-4 text-center text-lg font-medium hover:shadow-md transition cursor-pointer">
+                    Fonoestomatología
+                </div>
+                <div class="border-2 border-gray-800 rounded-xl p-4 text-center text-lg font-medium hover:shadow-md transition cursor-pointer">
+                    Vocología
+                </div>
+                <div class="border-2 border-gray-800 rounded-xl p-4 text-center text-lg font-medium hover:shadow-md transition cursor-pointer">
+                    Atención temprana
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN FORMULARIO / CONTACTO -->
+    <section id="contacto" class="max-w-3xl mx-auto px-4 py-16">
+        <div class="border-2 border-gray-800 rounded-2xl p-6 sm:p-10 bg-white">
+            <div class="border-2 border-gray-800 rounded-lg h-12 mb-6 flex items-center px-4 bg-gray-50">
+                <span class="font-medium text-gray-600">Contacto / Formulario</span>
+            </div>
+
+            <form class="flex flex-col gap-6">
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <input type="text" placeholder="Nombre completo" class="border-2 border-gray-800 rounded-lg h-12 px-4 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    <input type="email" placeholder="Email de contacto" class="border-2 border-gray-800 rounded-lg h-12 px-4 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                </div>
+
+                <textarea rows="4" placeholder="Escribe tu consulta aquí..." class="border-2 border-gray-800 rounded-lg p-4 resize-none focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+
+                <div class="flex justify-center mt-2">
+                    <button type="submit" class="border-2 border-gray-800 rounded-lg px-10 py-2 font-medium hover:bg-gray-100 transition">
+                        Enviar Consulta
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+</body>
+</html>
